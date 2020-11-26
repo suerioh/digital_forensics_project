@@ -1,0 +1,86 @@
+TUMBLR
+>actions = ['open tumblr', 'refresh home', 'search page', 'user page', 'user likes', 'following page',
+                 'new post', 'other']
+>rf
+estimators = 70
+precision = [1, 0, 0.84, 0.94, 1, 1, 0.6, 0.94]
+recall = [1, 0, 1, 0.83, 0.91, 1, 0.25, 0.99]
+F-measure = [1, 0, 0.91, 0.89, 0.95, 1, 0.35, 0.96]
+>nn
+identity = 0.934
+logistic = 0.938
+tanh = 0.940
+relu = 0.940
+activation = relu
+precision = [1, 0, 0.87, 0.9, 1, 1, 0.57, 0.94]
+recall = [0.97, 0, 0.9, 0.82, 0.96, 0.96, 0.24, 0.99]
+F-measure = [0.99, 0, 0.89, 0.86, 0.98, 0.98, 0.34, 0.97]
+
+
+
+
+
+FACEBOOK
+>actions = ['open facebook', 'user profile selection', 'post button selection', 'send message selection',
+             'menu message selection', 'status post selection', 'status selection', 'other']
+>rf
+estimators = 60
+precision = [1, 1, 1, 1, 1, 1, 1, 0.95]
+recall = [1, 0.67, 1, 0.78, 0.14, 0.71, 1, 1]
+F-measure = [1, 0.8, 1, 0.88, 0.25, 0.83, 1, 0.98]
+>nn
+identity = 0.936
+logistic = 0.940
+tanh = 0.940
+relu = 0.940
+activation = relu
+precision = [1, 1, 1, 1, 0, 1, 1, 0.96]
+recall = [1, 1, 0.875, 0.8, 0, 0.8, 1, 1]
+F-measure = [1, 1, 0.93, 0.89, 0, 0.89, 1, 0.98]
+
+
+
+
+
+GMAIL
+>actions = ['open gmail', 'sending mail', 'reply selection', 'sending mail reply', 'chats selection',
+                'delete selection', 'inbox selection', 'other']
+>rf
+estimators = 50
+precision = [0.8, 0.92, 0.81, 0.97, 0.75, 0.93, 0.73, 0.91]
+recall = [0.95, 0.98, 1, 0.88, 0.79, 0.59, 0.37, 0.92]
+F-measure = [0.87, 0.95, 0.9, 0.92, 0.77, 0.72, 0.49, 0.91]
+>nn
+identity = 0.892
+logistic = 0.893
+tanh = 0.895
+relu = 0.895
+activation = relu
+precision = [0.95, 0.92, 0.76, 0.98, 0.92, 0.94, 0.94, 0.90]
+recall = [0.97, 0.98, 1, 0.93, 0.85, 0.44, 0.51, 0.94]
+F-measure = [0.96, 0.95, 0.86, 0.95, 0.88, 0.60, 0.66, 0.92]
+
+
+
+
+
+TWITTER
+>actions = ['open Twitter', 'tweets selection', 'direct messages selection', 'send selection',
+             'contact selection', 'back to home', 'writing tweet', 'other']
+>rf
+estimators = 30
+precision = [1, 0.99, 0.95, 0.46, 0.98, 1, 0.89, 0.92]
+recall = [1, 0.96, 1, 0.91, 0.95, 0.07, 0.81, 0.93]
+F-measure = [1, 0.97, 0.97, 0.61, 0.97, 0.13, 0.85, 0.92]
+>nn
+identity = 0.890
+logistic = 0.890
+tanh = 0.883
+relu = 0.893
+activation = relu
+precision = [1, 1, 0.97, 0.48, 0.97, 0.82, 0.91, 0.94]
+recall = [1, 0.89,  1, 1, 0.97, 0.14, 0.79, 0.92]
+F-measure = [1, 0.94, 0.98, 0.65, 0.97, 0.24, 0.84, 0.93]
+
+
+
